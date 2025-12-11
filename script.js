@@ -4,7 +4,7 @@ document.getElementById("searchForm").addEventListener("submit", function (e) {
 
     if (query !== "") {
         // Open DuckDuckGo search in a new tab
-        window.open("https://duckduckgo.com/?q=" + encodeURIComponent(query), "_blank");
+        window.open("https://duckduckgo.com/?q=" + encodeURIComponent(query));
         // Optional: clear the input
         document.getElementById("searchInput").value = "";
     }
